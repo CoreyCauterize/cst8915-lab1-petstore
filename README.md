@@ -22,12 +22,12 @@ This service is responsible for workingh with the front to create orders. After 
 
 ### Product Service (Rust)
 
-This services use Rust api as a way to send information about a product. The front send a request to this api to gather more information about a product to display it on the front. 
+This services use Rust's Warp api framework as a way to send information about a product. The front send a request to this api to gather more information about a product to display it on the front. 
 
 
 ### Store Front (Vue.js)
 
-Everything you see on the web page starts here, offering a static page with some http request for more infromations from the Product service.
+Everything you see on the web page starts here, offering a static page with some http request for more infromations from the Product service. When placing an order it sends ahttp request to the order seriver. The tech stack this servicees uses is Vue with typwscript
 
 
 
